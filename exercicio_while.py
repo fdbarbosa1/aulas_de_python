@@ -2,11 +2,11 @@
 Iterando strings com while
 """
 #       012345678910
-# nome = 'Luiz Otávio'  # Iteráveis
+# nome = 'Flavio Dantas'  # Iteráveis
 #      1110987654321
 
 
-nome = 'Maria Helena'  # Iteráveis
+nome = 'isadora Coradim'  # Iteráveis
 
 indice = 0
 novo_nome = ''
