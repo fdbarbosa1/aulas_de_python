@@ -27,6 +27,7 @@ while True:
         print('Digite apenas um operador.')
         continue
 
+
     ###
 
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
