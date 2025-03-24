@@ -16,7 +16,7 @@ usuário.
 """
 import os
 
-palavra_secreta = 'Jesus'
+palavra_secreta = 'jesus'
 letras_acertadas = ''
 numero_tentativas = 0
 
@@ -41,7 +41,7 @@ while True:
     print('Palavra formada:', palavra_formada)
 
     if palavra_formada == palavra_secreta:
-        os.system('clear')
+        os.system('cls')
         print('VOCÊ GANHOU!! PARABÉNS!')
         print('A palavra era', palavra_secreta)
         print('Tentativas:', numero_tentativas)
