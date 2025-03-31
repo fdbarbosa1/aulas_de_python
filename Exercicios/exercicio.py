@@ -36,6 +36,7 @@ if nome and idade:
 else:
     print ("digite novamente !")
     
+    
 
  
 

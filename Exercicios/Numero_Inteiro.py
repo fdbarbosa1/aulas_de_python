@@ -29,3 +29,4 @@ if entrada.isdigit():
 
 else:
     print(' Você não digitou um número inteiro ')
+ 

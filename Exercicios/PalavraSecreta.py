@@ -47,3 +47,4 @@ while True:
         print('Tentativas:', numero_tentativas)
         letras_acertadas = ''
         numero_tentativas = 0
+        
