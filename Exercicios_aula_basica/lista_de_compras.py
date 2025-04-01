@@ -20,6 +20,7 @@ while True:
     elif opcao == 'a':
         for i, valor in enumerate(lista):
             print(i, valor)
+            
         indice_str = input(
             'Escolha o índice para apagar: '
         )
