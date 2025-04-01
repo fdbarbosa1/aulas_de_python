@@ -13,7 +13,7 @@ salas = [
 # print(salas[1][0])
 # print(salas[0][1])
 # print(salas[2][0])
-print(salas[2][3][2])
+# print(salas[2][3][2])
 
 
 for sala in salas:
