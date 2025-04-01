@@ -48,9 +48,6 @@ for digito in dez_digitos:
 digito_2 = (resultado_digito_2 * 10 ) %11
 digito_2 = digito_2 if digito_2 <= 9 else 0
 
-print (digito_2)
-
-
 cpf_gerado_pelo_calculo = f'{nove_digitos}{digito_1}{digito_2}'
 
 if cpf_enviado_pelo_usuario == cpf_gerado_pelo_calculo:
