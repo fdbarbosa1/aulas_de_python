@@ -11,11 +11,11 @@ def multiplicar(*args):
     return total
 
 
-multiplicação = multiplicar(10, 2, 3, 4, 5)
+multiplicação = multiplicar(1, 2, 3, 4, 5)
 print(multiplicação)
 
 
-# Crie uma função fala se um número é par ou ímpar.
+# Crie uma função fala se um número é par ou ímpar.s
 # Retorne se o número é par ou ímpar.
 def par_impar(numero):
     multiplo_de_dois = numero % 2 == 0
