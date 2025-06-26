@@ -25,3 +25,17 @@ lista_de_listas_de_inteiros = [
     [5, 3, 1, 8, 5, 7, 1, 8, 8, 7],
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
+
+def primeiro_duplicado(lista):
+    vistos = set()
+    for numero in lista:
+        if numero in vistos:
+            return numero  # Retorna a duplicata (segunda ocorrência)
+        vistos.add(numero)
+    return -1  # Nenhum duplicado encontrado
+
+
+# Testando cada uma
+for i, lista in enumerate(lista_de_listas_de_inteiros):
+    resultado = primeiro_duplicado(lista)
+    print(f"Lista {i + 1}: {resultado}")
